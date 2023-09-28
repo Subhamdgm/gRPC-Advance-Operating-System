@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+package warzone;
+
+service WarzoneSimulator {
+    rpc SimulateWar(SimulationRequest) returns (SimulationResponse);
+}
+
+message SimulationRequest {
+    int32 N = 1;
+    int32 M = 2;
+    int32 time = 3;
+    repeated int32 soldier_speeds = 4;
+}
+
+message SimulationResponse {
+    repeated string simulation_output = 1;
+}
