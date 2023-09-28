@@ -3,8 +3,9 @@
 
 
 GITHUB LINK : https://github.com/Subhamdgm/gRPC-Advance-Operating-System
-Team Details: 1)Priyansh Deshmukh(Bits_Id : 2023H1120193P)
-                       2)Subham Anand       (Bits_Id : 2023H1120195P)
+Team Details:
+1)Priyansh Deshmukh(Bits_Id : 2023H1120193P)
+2)Subham Anand(Bits_Id : 2023H1120195P)                       
 Branch: M.E (Software System)
 
 Instructions Needed to Run the Program
