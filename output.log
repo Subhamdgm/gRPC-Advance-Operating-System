@@ -1,0 +1,1057 @@
+INFO:root:Created on 2023-09-27 23:11:14
+INFO:root:Commander is Soldier 7
+INFO:root:Soldier 1 is at (4,4)
+INFO:root:Soldier 2 is at (9,5)
+INFO:root:Soldier 3 is at (4,9)
+INFO:root:Soldier 4 is at (7,4)
+INFO:root:Soldier 5 is at (1,4)
+INFO:root:Soldier 6 is at (9,6)
+INFO:root:Soldier 7 is at (5,5)
+INFO:root:Soldier 8 is at (3,6)
+INFO:root:Soldier 9 is at (6,0)
+INFO:root:Soldier 10 is at (4,2)
+INFO:root:
+Time 1: Missile approaching (6, 0) with radius 1
+INFO:root:Soldier 9 moved to (7,1)
+INFO:root:. . . . . . . . . .
+. . . . 5 . . . . .
+. . . . . . . . . .
+. . . . . . 8 . . .
+. . 10 . 1 . . . . 3
+. . . . . 7 . . . .
+X . . . . . . . . .
+. . . . 4 . . . . .
+. . . . . . . . . .
+. . . . . 2 6 . . .
+INFO:root:Casualties: [9]
+INFO:root:------------------------------------------------------------------
+INFO:root:
+Time 2: Missile approaching (5, 6) with radius 2
+INFO:root:Soldier 7 moved to (7,7)
+INFO:root:. . . . . . . . . .
+. . . . 5 . . . . .
+. . . . . . . . . .
+. . . . . . 8 . . .
+. . 10 . 1 . . . . 3
+. . . . . . X . . .
+. . . . . . . . . .
+. . . . 4 . . . . .
+. . . . . . . . . .
+. . . . . 2 6 . . .
+INFO:root:Casualties: [9, 7]
+INFO:root:------------------------------------------------------------------
+INFO:root:
+Time 3: Missile approaching (3, 2) with radius 1
+INFO:root:. . . . . . . . . .
+. . . . 5 . . . . .
+. . . . . . . . . .
+. . X . . . 8 . . .
+. . 10 . 1 . . . . 3
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . 4 . . . . .
+. . . . . . . . . .
+. . . . . 2 6 . . .
+INFO:root:Casualties: [9, 7]
+INFO:root:------------------------------------------------------------------
+INFO:root:
+Time 4: Missile approaching (3, 6) with radius 4
+INFO:root:Soldier 3 moved to (2,7)
+INFO:root:. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . X . . .
+. . 10 . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . 4 . . . . .
+. . . . . . . . . .
+. . . . . 2 6 . . .
+INFO:root:Casualties: [9, 7, 3, 1, 5, 8]
+INFO:root:------------------------------------------------------------------
+INFO:root:
+Time 5: Missile approaching (6, 3) with radius 2
+INFO:root:Soldier 4 moved to (6,3)
+INFO:root:. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . 10 . . . . . . .
+. . . . . . . . . .
+. . . X . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . 2 6 . . .
+INFO:root:Casualties: [9, 7, 3, 1, 5, 8, 4]
+INFO:root:------------------------------------------------------------------
+INFO:root:
+Time 6: Missile approaching (6, 0) with radius 1
+INFO:root:. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . 10 . . . . . . .
+. . . . . . . . . .
+X . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . 2 6 . . .
+INFO:root:Casualties: [9, 7, 3, 1, 5, 8, 4]
+INFO:root:------------------------------------------------------------------
+INFO:root:
+Time 7: Missile approaching (1, 5) with radius 4
+INFO:root:. . . . . . . . . .
+. . . . . X . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . 10 . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . 2 6 . . .
+INFO:root:Casualties: [9, 7, 3, 1, 5, 8, 4]
+INFO:root:------------------------------------------------------------------
+INFO:root:
+Time 8: Missile approaching (4, 2) with radius 4
+INFO:root:. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . X . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . 2 6 . . .
+INFO:root:Casualties: [9, 7, 3, 1, 5, 8, 4, 10]
+INFO:root:------------------------------------------------------------------
+INFO:root:
+Time 9: Missile approaching (1, 6) with radius 1
+INFO:root:. . . . . . . . . .
+. . . . . . X . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . 2 6 . . .
+INFO:root:Casualties: [9, 7, 3, 1, 5, 8, 4, 10]
+INFO:root:------------------------------------------------------------------
+INFO:root:
+Time 10: Missile approaching (2, 1) with radius 3
+INFO:root:. . . . . . . . . .
+. . . . . . . . . .
+. X . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . 2 6 . . .
+INFO:root:Casualties: [9, 7, 3, 1, 5, 8, 4, 10]
+INFO:root:------------------------------------------------------------------
+INFO:root:The battle was lost!
+
+INFO:root:Created on 2023-09-27 23:11:14
+INFO:root:Commander is Soldier 1
+INFO:root:Soldier 1 is at (6,2)
+INFO:root:Soldier 2 is at (1,9)
+INFO:root:Soldier 3 is at (4,5)
+INFO:root:Soldier 4 is at (9,5)
+INFO:root:Soldier 5 is at (5,8)
+INFO:root:Soldier 6 is at (1,9)
+INFO:root:Soldier 7 is at (4,0)
+INFO:root:Soldier 8 is at (8,2)
+INFO:root:Soldier 9 is at (9,9)
+INFO:root:Soldier 10 is at (7,6)
+INFO:root:
+Time 1: Missile approaching (2, 6) with radius 3
+INFO:root:Soldier 3 moved to (0,9)
+INFO:root:. . . . . . . . . .
+. . . . . . . . . 2
+. . . . . . X . . .
+. . . . . . . . . .
+7 . . . . . . . . .
+. . . . . . . . 5 .
+. . 1 . . . . . . .
+. . . . . . 10 . . .
+. . 8 . . . . . . .
+. . . . . 4 . . . 9
+INFO:root:Casualties: [3]
+INFO:root:------------------------------------------------------------------
+INFO:root:
+Time 2: Missile approaching (8, 1) with radius 2
+INFO:root:Soldier 8 moved to (9,1)
+INFO:root:. . . . . . . . . .
+. . . . . . . . . 2
+. . . . . . . . . .
+. . . . . . . . . .
+7 . . . . . . . . .
+. . . . . . . . 5 .
+. . 1 . . . . . . .
+. . . . . . 10 . . .
+. X . . . . . . . .
+. . . . . 4 . . . 9
+INFO:root:Casualties: [3, 8]
+INFO:root:------------------------------------------------------------------
+INFO:root:
+Time 3: Missile approaching (2, 6) with radius 2
+INFO:root:. . . . . . . . . .
+. . . . . . . . . 2
+. . . . . . X . . .
+. . . . . . . . . .
+7 . . . . . . . . .
+. . . . . . . . 5 .
+. . 1 . . . . . . .
+. . . . . . 10 . . .
+. . . . . . . . . .
+. . . . . 4 . . . 9
+INFO:root:Casualties: [3, 8]
+INFO:root:------------------------------------------------------------------
+INFO:root:
+Time 4: Missile approaching (5, 7) with radius 4
+INFO:root:Soldier 5 moved to (9,4)
+INFO:root:Soldier 10 moved to (3,9)
+INFO:root:. . . . . . . . . .
+. . . . . . . . . 2
+. . . . . . . . . .
+. . . . . . . . . .
+7 . . . . . . . . .
+. . . . . . . X . .
+. . 1 . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . 4 . . . 9
+INFO:root:Casualties: [3, 8, 5, 10]
+INFO:root:------------------------------------------------------------------
+INFO:root:
+Time 5: Missile approaching (7, 8) with radius 3
+INFO:root:Soldier 9 moved to (6,6)
+INFO:root:. . . . . . . . . .
+. . . . . . . . . 2
+. . . . . . . . . .
+. . . . . . . . . .
+7 . . . . . . . . .
+. . . . . . . . . .
+. . 1 . . . . . . .
+. . . . . . . . X .
+. . . . . . . . . .
+. . . . . 4 . . . .
+INFO:root:Casualties: [3, 8, 5, 10, 9]
+INFO:root:------------------------------------------------------------------
+INFO:root:
+Time 6: Missile approaching (1, 1) with radius 4
+INFO:root:Soldier 7 moved to (2,2)
+INFO:root:. . . . . . . . . .
+. X . . . . . . . 2
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . 1 . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . 4 . . . .
+INFO:root:Casualties: [3, 8, 5, 10, 9, 7]
+INFO:root:------------------------------------------------------------------
+INFO:root:
+Time 7: Missile approaching (7, 7) with radius 1
+INFO:root:. . . . . . . . . .
+. . . . . . . . . 2
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . 1 . . . . . . .
+. . . . . . . X . .
+. . . . . . . . . .
+. . . . . 4 . . . .
+INFO:root:Casualties: [3, 8, 5, 10, 9, 7]
+INFO:root:------------------------------------------------------------------
+INFO:root:
+Time 8: Missile approaching (3, 4) with radius 1
+INFO:root:. . . . . . . . . .
+. . . . . . . . . 2
+. . . . . . . . . .
+. . . . X . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . 1 . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . 4 . . . .
+INFO:root:Casualties: [3, 8, 5, 10, 9, 7]
+INFO:root:------------------------------------------------------------------
+INFO:root:
+Time 9: Missile approaching (3, 0) with radius 1
+INFO:root:. . . . . . . . . .
+. . . . . . . . . 2
+. . . . . . . . . .
+X . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . 1 . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . 4 . . . .
+INFO:root:Casualties: [3, 8, 5, 10, 9, 7]
+INFO:root:------------------------------------------------------------------
+INFO:root:
+Time 10: Missile approaching (5, 7) with radius 1
+INFO:root:. . . . . . . . . .
+. . . . . . . . . 2
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . X . .
+. . 1 . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . 4 . . . .
+INFO:root:Casualties: [3, 8, 5, 10, 9, 7]
+INFO:root:------------------------------------------------------------------
+INFO:root:The battle was lost!
+
+INFO:root:Created on 2023-09-27 23:11:14
+INFO:root:Commander is Soldier 4
+INFO:root:Soldier 1 is at (4,12)
+INFO:root:Soldier 2 is at (13,4)
+INFO:root:Soldier 3 is at (3,6)
+INFO:root:Soldier 4 is at (1,13)
+INFO:root:Soldier 5 is at (4,0)
+INFO:root:Soldier 6 is at (14,9)
+INFO:root:Soldier 7 is at (2,5)
+INFO:root:Soldier 8 is at (1,12)
+INFO:root:Soldier 9 is at (2,13)
+INFO:root:Soldier 10 is at (7,7)
+INFO:root:
+Time 1: Missile approaching (14, 8) with radius 2
+INFO:root:Soldier 6 moved to (14,6)
+INFO:root:. . . . . . . . . . . . . . .
+. . . . . . . . . . . . 8 4 .
+. . . . . 7 . . . . . . . 9 .
+. . . . . . 3 . . . . . . . .
+5 . . . . . . . . . . . 1 . .
+. . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . .
+. . . . . . . 10 . . . . . . .
+. . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . .
+. . . . 2 . . . . . . . . . .
+. . . . . . . . X . . . . . .
+INFO:root:Casualties: [6]
+INFO:root:------------------------------------------------------------------
+INFO:root:
+Time 2: Missile approaching (5, 7) with radius 3
+INFO:root:Soldier 3 moved to (6,9)
+INFO:root:Soldier 10 moved to (4,10)
+INFO:root:. . . . . . . . . . . . . . .
+. . . . . . . . . . . . 8 4 .
+. . . . . 7 . . . . . . . 9 .
+. . . . . . . . . . . . . . .
+5 . . . . . . . . . . . 1 . .
+. . . . . . . X . . . . . . .
+. . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . .
+. . . . 2 . . . . . . . . . .
+. . . . . . . . . . . . . . .
+INFO:root:Casualties: [6, 3, 10]
+INFO:root:------------------------------------------------------------------
+INFO:root:
+Time 3: Missile approaching (1, 11) with radius 1
+INFO:root:. . . . . . . . . . . . . . .
+. . . . . . . . . . . X 8 4 .
+. . . . . 7 . . . . . . . 9 .
+. . . . . . . . . . . . . . .
+5 . . . . . . . . . . . 1 . .
+. . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . .
+. . . . 2 . . . . . . . . . .
+. . . . . . . . . . . . . . .
+INFO:root:Casualties: [6, 3, 10]
+INFO:root:------------------------------------------------------------------
+INFO:root:
+Time 4: Missile approaching (3, 14) with radius 4
+INFO:root:Soldier 1 moved to (3,13)
+INFO:root:Soldier 4 moved to (5,14)
+INFO:root:Soldier 8 moved to (3,14)
+INFO:root:Soldier 9 moved to (5,14)
+INFO:root:. . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . .
+. . . . . 7 . . . . . . . . .
+. . . . . . . . . . . . . . X
+5 . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . .
+. . . . 2 . . . . . . . . . .
+. . . . . . . . . . . . . . .
+INFO:root:Casualties: [6, 3, 10, 1, 4, 8, 9]
+INFO:root:------------------------------------------------------------------
+INFO:root:
+Time 5: Missile approaching (2, 1) with radius 2
+INFO:root:. . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . .
+. X . . . 7 . . . . . . . . .
+. . . . . . . . . . . . . . .
+5 . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . .
+. . . . 2 . . . . . . . . . .
+. . . . . . . . . . . . . . .
+INFO:root:Casualties: [6, 3, 10, 1, 4, 8, 9]
+INFO:root:------------------------------------------------------------------
+INFO:root:
+Time 6: Missile approaching (0, 6) with radius 3
+INFO:root:Soldier 7 moved to (0,9)
+INFO:root:. . . . . . X . . . . . . . .
+. . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . .
+5 . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . .
+. . . . 2 . . . . . . . . . .
+. . . . . . . . . . . . . . .
+INFO:root:Casualties: [6, 3, 10, 1, 4, 8, 9, 7]
+INFO:root:------------------------------------------------------------------
+INFO:root:
+Time 7: Missile approaching (0, 3) with radius 4
+INFO:root:. . . X . . . . . . . . . . .
+. . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . .
+5 . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . .
+. . . . 2 . . . . . . . . . .
+. . . . . . . . . . . . . . .
+INFO:root:Casualties: [6, 3, 10, 1, 4, 8, 9, 7]
+INFO:root:------------------------------------------------------------------
+INFO:root:The battle was lost!
+
+INFO:root:Created on 2023-09-27 23:11:14
+INFO:root:Commander is Soldier 3
+INFO:root:Soldier 1 is at (11,4)
+INFO:root:Soldier 2 is at (9,12)
+INFO:root:Soldier 3 is at (2,0)
+INFO:root:Soldier 4 is at (3,11)
+INFO:root:Soldier 5 is at (1,8)
+INFO:root:Soldier 6 is at (3,10)
+INFO:root:Soldier 7 is at (14,9)
+INFO:root:Soldier 8 is at (9,13)
+INFO:root:Soldier 9 is at (8,13)
+INFO:root:Soldier 10 is at (6,5)
+INFO:root:Soldier 11 is at (0,8)
+INFO:root:Soldier 12 is at (8,5)
+INFO:root:Soldier 13 is at (0,10)
+INFO:root:Soldier 14 is at (2,14)
+INFO:root:Soldier 15 is at (7,5)
+INFO:root:
+Time 1: Missile approaching (9, 13) with radius 1
+INFO:root:Soldier 8 moved to (13,14)
+INFO:root:. . . . . . . . 11 . 13 . . . .
+. . . . . . . . 5 . . . . . .
+3 . . . . . . . . . . . . . 14
+. . . . . . . . . . 6 4 . . .
+. . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . .
+. . . . . 10 . . . . . . . . .
+. . . . . 15 . . . . . . . . .
+. . . . . 12 . . . . . . . 9 .
+. . . . . . . . . . . . 2 X .
+. . . . . . . . . . . . . . .
+. . . . 1 . . . . . . . . . .
+. . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . .
+. . . . . . . . . 7 . . . . .
+INFO:root:Casualties: [8]
+INFO:root:------------------------------------------------------------------
+INFO:root:
+Time 2: Missile approaching (9, 12) with radius 1
+INFO:root:Soldier 2 moved to (11,14)
+INFO:root:. . . . . . . . 11 . 13 . . . .
+. . . . . . . . 5 . . . . . .
+3 . . . . . . . . . . . . . 14
+. . . . . . . . . . 6 4 . . .
+. . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . .
+. . . . . 10 . . . . . . . . .
+. . . . . 15 . . . . . . . . .
+. . . . . 12 . . . . . . . 9 .
+. . . . . . . . . . . . X . .
+. . . . . . . . . . . . . . .
+. . . . 1 . . . . . . . . . .
+. . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . .
+. . . . . . . . . 7 . . . . .
+INFO:root:Casualties: [8, 2]
+INFO:root:------------------------------------------------------------------
+INFO:root:
+Time 3: Missile approaching (6, 0) with radius 2
+INFO:root:. . . . . . . . 11 . 13 . . . .
+. . . . . . . . 5 . . . . . .
+3 . . . . . . . . . . . . . 14
+. . . . . . . . . . 6 4 . . .
+. . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . .
+X . . . . 10 . . . . . . . . .
+. . . . . 15 . . . . . . . . .
+. . . . . 12 . . . . . . . 9 .
+. . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . .
+. . . . 1 . . . . . . . . . .
+. . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . .
+. . . . . . . . . 7 . . . . .
+INFO:root:Casualties: [8, 2]
+INFO:root:------------------------------------------------------------------
+INFO:root:
+Time 4: Missile approaching (9, 7) with radius 1
+INFO:root:. . . . . . . . 11 . 13 . . . .
+. . . . . . . . 5 . . . . . .
+3 . . . . . . . . . . . . . 14
+. . . . . . . . . . 6 4 . . .
+. . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . .
+. . . . . 10 . . . . . . . . .
+. . . . . 15 . . . . . . . . .
+. . . . . 12 . . . . . . . 9 .
+. . . . . . . X . . . . . . .
+. . . . . . . . . . . . . . .
+. . . . 1 . . . . . . . . . .
+. . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . .
+. . . . . . . . . 7 . . . . .
+INFO:root:Casualties: [8, 2]
+INFO:root:------------------------------------------------------------------
+INFO:root:
+Time 5: Missile approaching (3, 13) with radius 2
+INFO:root:. . . . . . . . 11 . 13 . . . .
+. . . . . . . . 5 . . . . . .
+3 . . . . . . . . . . . . . .
+. . . . . . . . . . 6 4 . X .
+. . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . .
+. . . . . 10 . . . . . . . . .
+. . . . . 15 . . . . . . . . .
+. . . . . 12 . . . . . . . 9 .
+. . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . .
+. . . . 1 . . . . . . . . . .
+. . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . .
+. . . . . . . . . 7 . . . . .
+INFO:root:Casualties: [8, 2, 14]
+INFO:root:------------------------------------------------------------------
+INFO:root:The battle was won!
+
+INFO:root:Created on 2023-09-27 23:31:54
+INFO:root:Commander is Soldier 5
+INFO:root:Soldier 1 is at (8,4)
+INFO:root:Soldier 2 is at (0,0)
+INFO:root:Soldier 3 is at (7,10)
+INFO:root:Soldier 4 is at (5,3)
+INFO:root:Soldier 5 is at (0,9)
+INFO:root:Soldier 6 is at (9,3)
+INFO:root:Soldier 7 is at (3,10)
+INFO:root:Soldier 8 is at (6,0)
+INFO:root:Soldier 9 is at (0,7)
+INFO:root:Soldier 10 is at (13,10)
+INFO:root:
+Time 1: Missile approaching (5, 2) with radius 4
+INFO:root:Soldier 4 moved to (9,0)
+INFO:root:Soldier 8 moved to (5,1)
+INFO:root:2 . . . . . . 9 . 5 . . . . .
+. . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . .
+. . . . . . . . . . 7 . . . .
+. . . . . . . . . . . . . . .
+. . X . . . . . . . . . . . .
+. . . . . . . . . . . . . . .
+. . . . . . . . . . 3 . . . .
+. . . . . . . . . . . . . . .
+. . . 6 . . . . . . . . . . .
+. . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . .
+. . . . . . . . . . 10 . . . .
+. . . . . . . . . . . . . . .
+INFO:root:Casualties: [4, 8, 1]
+INFO:root:------------------------------------------------------------------
+INFO:root:
+Time 2: Missile approaching (2, 0) with radius 3
+INFO:root:Soldier 2 moved to (1,1)
+INFO:root:. . . . . . . 9 . 5 . . . . .
+. . . . . . . . . . . . . . .
+X . . . . . . . . . . . . . .
+. . . . . . . . . . 7 . . . .
+. . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . .
+. . . . . . . . . . 3 . . . .
+. . . . . . . . . . . . . . .
+. . . 6 . . . . . . . . . . .
+. . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . .
+. . . . . . . . . . 10 . . . .
+. . . . . . . . . . . . . . .
+INFO:root:Casualties: [4, 8, 1, 2]
+INFO:root:------------------------------------------------------------------
+INFO:root:
+Time 3: Missile approaching (9, 2) with radius 2
+INFO:root:Soldier 6 moved to (11,1)
+INFO:root:. . . . . . . 9 . 5 . . . . .
+. . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . .
+. . . . . . . . . . 7 . . . .
+. . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . .
+. . . . . . . . . . 3 . . . .
+. . . . . . . . . . . . . . .
+. . X . . . . . . . . . . . .
+. . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . .
+. . . . . . . . . . 10 . . . .
+. . . . . . . . . . . . . . .
+INFO:root:Casualties: [4, 8, 1, 2, 6]
+INFO:root:------------------------------------------------------------------
+INFO:root:
+Time 4: Missile approaching (7, 0) with radius 1
+INFO:root:. . . . . . . 9 . 5 . . . . .
+. . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . .
+. . . . . . . . . . 7 . . . .
+. . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . .
+X . . . . . . . . . 3 . . . .
+. . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . .
+. . . . . . . . . . 10 . . . .
+. . . . . . . . . . . . . . .
+INFO:root:Casualties: [4, 8, 1, 2, 6]
+INFO:root:------------------------------------------------------------------
+INFO:root:
+Time 5: Missile approaching (7, 2) with radius 1
+INFO:root:. . . . . . . 9 . 5 . . . . .
+. . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . .
+. . . . . . . . . . 7 . . . .
+. . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . .
+. . X . . . . . . . 3 . . . .
+. . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . .
+. . . . . . . . . . 10 . . . .
+. . . . . . . . . . . . . . .
+INFO:root:Casualties: [4, 8, 1, 2, 6]
+INFO:root:------------------------------------------------------------------
+INFO:root:The battle was won!
+
+INFO:root:Created on 2023-09-28 18:48:54
+INFO:root:Commander is Soldier 9
+INFO:root:Soldier 1 is at (4,4)
+INFO:root:Soldier 2 is at (8,2)
+INFO:root:Soldier 3 is at (5,5)
+INFO:root:Soldier 4 is at (6,8)
+INFO:root:Soldier 5 is at (7,5)
+INFO:root:Soldier 6 is at (7,4)
+INFO:root:Soldier 7 is at (4,2)
+INFO:root:Soldier 8 is at (1,5)
+INFO:root:Soldier 9 is at (3,8)
+INFO:root:Soldier 10 is at (0,3)
+INFO:root:
+Time 1: Missile approaching (4, 5) with radius 1
+INFO:root:. . . 10 . . . . . .
+. . . . . 8 . . . .
+. . . . . . . . . .
+. . . . . . . . 9 .
+. . 7 . 1 X . . . .
+. . . . . 3 . . . .
+. . . . . . . . 4 .
+. . . . 6 5 . . . .
+. . 2 . . . . . . .
+. . . . . . . . . .
+INFO:root:Casualties: []
+INFO:root:------------------------------------------------------------------
+INFO:root:
+Time 2: Missile approaching (1, 2) with radius 2
+INFO:root:Soldier 10 moved to (4,0)
+INFO:root:. . . . . . . . . .
+. . X . . 8 . . . .
+. . . . . . . . . .
+. . . . . . . . 9 .
+. . 7 . 1 . . . . .
+. . . . . 3 . . . .
+. . . . . . . . 4 .
+. . . . 6 5 . . . .
+. . 2 . . . . . . .
+. . . . . . . . . .
+INFO:root:Casualties: [10]
+INFO:root:------------------------------------------------------------------
+INFO:root:
+Time 3: Missile approaching (3, 2) with radius 3
+INFO:root:Soldier 1 moved to (2,2)
+INFO:root:Soldier 7 moved to (3,3)
+INFO:root:. . . . . . . . . .
+. . . . . 8 . . . .
+. . . . . . . . . .
+. . X . . . . . 9 .
+. . . . . . . . . .
+. . . . . 3 . . . .
+. . . . . . . . 4 .
+. . . . 6 5 . . . .
+. . 2 . . . . . . .
+. . . . . . . . . .
+INFO:root:Casualties: [10, 1, 7]
+INFO:root:------------------------------------------------------------------
+INFO:root:
+Time 4: Missile approaching (0, 0) with radius 2
+INFO:root:X . . . . . . . . .
+. . . . . 8 . . . .
+. . . . . . . . . .
+. . . . . . . . 9 .
+. . . . . . . . . .
+. . . . . 3 . . . .
+. . . . . . . . 4 .
+. . . . 6 5 . . . .
+. . 2 . . . . . . .
+. . . . . . . . . .
+INFO:root:Casualties: [10, 1, 7]
+INFO:root:------------------------------------------------------------------
+INFO:root:
+Time 5: Missile approaching (0, 2) with radius 4
+INFO:root:. . X . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . 9 .
+. . . . . . . . . .
+. . . . . 3 . . . .
+. . . . . . . . 4 .
+. . . . 6 5 . . . .
+. . 2 . . . . . . .
+. . . . . . . . . .
+INFO:root:Casualties: [10, 1, 7, 8]
+INFO:root:------------------------------------------------------------------
+INFO:root:The battle was won!
+
+INFO:root:Created on 2023-09-28 21:10:45
+INFO:root:Commander is Soldier 3
+INFO:root:Soldier 1 is at (2,5)
+INFO:root:Soldier 2 is at (6,0)
+INFO:root:Soldier 3 is at (1,8)
+INFO:root:Soldier 4 is at (9,8)
+INFO:root:Soldier 5 is at (3,1)
+INFO:root:Soldier 6 is at (9,7)
+INFO:root:Soldier 7 is at (6,0)
+INFO:root:Soldier 8 is at (5,9)
+INFO:root:Soldier 9 is at (3,3)
+INFO:root:Soldier 10 is at (6,1)
+INFO:root:
+Time 1: Missile approaching (5, 2) with radius 1
+INFO:root:. . . . . . . . . .
+. . . . . . . . 3 .
+. . . . . 1 . . . .
+. 5 . 9 . . . . . .
+. . . . . . . . . .
+. . X . . . . . . 8
+2 10 . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . 6 4 .
+INFO:root:Casualties: []
+INFO:root:------------------------------------------------------------------
+INFO:root:
+Time 2: Missile approaching (2, 0) with radius 4
+INFO:root:Soldier 5 moved to (0,0)
+INFO:root:Soldier 9 moved to (1,1)
+INFO:root:. . . . . . . . . .
+. . . . . . . . 3 .
+X . . . . 1 . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . 8
+2 10 . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . 6 4 .
+INFO:root:Casualties: [5, 9]
+INFO:root:------------------------------------------------------------------
+INFO:root:
+Time 3: Missile approaching (3, 4) with radius 2
+INFO:root:. . . . . . . . . .
+. . . . . . . . 3 .
+. . . . . . . . . .
+. . . . X . . . . .
+. . . . . . . . . .
+. . . . . . . . . 8
+2 10 . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . 6 4 .
+INFO:root:Casualties: [5, 9, 1]
+INFO:root:------------------------------------------------------------------
+INFO:root:
+Time 4: Missile approaching (4, 1) with radius 3
+INFO:root:Soldier 2 moved to (5,1)
+INFO:root:Soldier 7 moved to (2,4)
+INFO:root:Soldier 10 moved to (3,4)
+INFO:root:. . . . . . . . . .
+. . . . . . . . 3 .
+. . . . . . . . . .
+. . . . . . . . . .
+. X . . . . . . . .
+. . . . . . . . . 8
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . 6 4 .
+INFO:root:Casualties: [5, 9, 1, 2, 7, 10]
+INFO:root:------------------------------------------------------------------
+INFO:root:
+Time 5: Missile approaching (9, 1) with radius 3
+INFO:root:. . . . . . . . . .
+. . . . . . . . 3 .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . 8
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. X . . . . . 6 4 .
+INFO:root:Casualties: [5, 9, 1, 2, 7, 10]
+INFO:root:------------------------------------------------------------------
+INFO:root:The battle was lost!
+
+INFO:root:Created on 2023-09-28 21:16:22
+INFO:root:Commander is Soldier 1
+INFO:root:Soldier 1 is at (8,4)
+INFO:root:Soldier 2 is at (3,8)
+INFO:root:Soldier 3 is at (2,8)
+INFO:root:Soldier 4 is at (3,5)
+INFO:root:Soldier 5 is at (6,5)
+INFO:root:Soldier 6 is at (5,2)
+INFO:root:Soldier 7 is at (8,8)
+INFO:root:Soldier 8 is at (8,0)
+INFO:root:Soldier 9 is at (2,4)
+INFO:root:Soldier 10 is at (8,7)
+INFO:root:
+Time 1: Missile approaching (0, 8) with radius 1
+INFO:root:. . . . . . . . X .
+. . . . . . . . . .
+. . . . 9 . . . 3 .
+. . . . . 4 . . 2 .
+. . . . . . . . . .
+. . 6 . . . . . . .
+. . . . . 5 . . . .
+. . . . . . . . . .
+8 . . . 1 . . 10 7 .
+. . . . . . . . . .
+INFO:root:Casualties: []
+INFO:root:------------------------------------------------------------------
+INFO:root:
+Time 2: Missile approaching (9, 2) with radius 4
+INFO:root:Soldier 1 moved to (9,3)
+INFO:root:Soldier 8 moved to (9,4)
+INFO:root:. . . . . . . . . .
+. . . . . . . . . .
+. . . . 9 . . . 3 .
+. . . . . 4 . . 2 .
+. . . . . . . . . .
+. . 6 . . . . . . .
+. . . . . 5 . . . .
+. . . . . . . . . .
+. . . . . . . 10 7 .
+. . X . . . . . . .
+INFO:root:Casualties: [1, 8]
+INFO:root:------------------------------------------------------------------
+INFO:root:
+Time 3: Missile approaching (6, 9) with radius 1
+INFO:root:. . . . . . . . . .
+. . . . . . . . . .
+. . . . 9 . . . 3 .
+. . . . . 4 . . 2 .
+. . . . . . . . . .
+. . 6 . . . . . . .
+. . . . . 5 . . . X
+. . . . . . . . . .
+. . . . . . . 10 7 .
+. . . . . . . . . .
+INFO:root:Casualties: [1, 8]
+INFO:root:------------------------------------------------------------------
+INFO:root:
+Time 4: Missile approaching (1, 1) with radius 2
+INFO:root:. . . . . . . . . .
+. X . . . . . . . .
+. . . . 9 . . . 3 .
+. . . . . 4 . . 2 .
+. . . . . . . . . .
+. . 6 . . . . . . .
+. . . . . 5 . . . .
+. . . . . . . . . .
+. . . . . . . 10 7 .
+. . . . . . . . . .
+INFO:root:Casualties: [1, 8]
+INFO:root:------------------------------------------------------------------
+INFO:root:
+Time 5: Missile approaching (7, 5) with radius 4
+INFO:root:Soldier 5 moved to (8,7)
+INFO:root:Soldier 7 moved to (5,5)
+INFO:root:Soldier 10 moved to (6,5)
+INFO:root:. . . . . . . . . .
+. . . . . . . . . .
+. . . . 9 . . . 3 .
+. . . . . 4 . . 2 .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . X . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+INFO:root:Casualties: [1, 8, 5, 7, 10, 6]
+INFO:root:------------------------------------------------------------------
+INFO:root:The battle was lost!
+
+INFO:root:Created on 2023-09-28 21:20:10
+INFO:root:Commander is Soldier 10
+INFO:root:Soldier 1 is at (6,1)
+INFO:root:Soldier 2 is at (8,2)
+INFO:root:Soldier 3 is at (4,4)
+INFO:root:Soldier 4 is at (4,0)
+INFO:root:Soldier 5 is at (9,5)
+INFO:root:Soldier 6 is at (1,3)
+INFO:root:Soldier 7 is at (8,9)
+INFO:root:Soldier 8 is at (2,6)
+INFO:root:Soldier 9 is at (2,9)
+INFO:root:Soldier 10 is at (2,8)
+INFO:root:
+Time 1: Missile approaching (4, 0) with radius 4
+INFO:root:Soldier 1 moved to (5,0)
+INFO:root:Soldier 4 moved to (6,2)
+INFO:root:. . . . . . . . . .
+. . . 6 . . . . . .
+. . . . . . 8 . 10 9
+. . . . . . . . . .
+X . . . 3 . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . 2 . . . . . . 7
+. . . . . 5 . . . .
+INFO:root:Casualties: [1, 4]
+INFO:root:------------------------------------------------------------------
+INFO:root:
+Time 2: Missile approaching (8, 0) with radius 3
+INFO:root:Soldier 2 moved to (9,0)
+INFO:root:. . . . . . . . . .
+. . . 6 . . . . . .
+. . . . . . 8 . 10 9
+. . . . . . . . . .
+. . . . 3 . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+X . . . . . . . . 7
+. . . . . 5 . . . .
+INFO:root:Casualties: [1, 4, 2]
+INFO:root:------------------------------------------------------------------
+INFO:root:
+Time 3: Missile approaching (1, 4) with radius 3
+INFO:root:Soldier 6 moved to (2,4)
+INFO:root:. . . . . . . . . .
+. . . . X . . . . .
+. . . . . . . . 10 9
+. . . . . . . . . .
+. . . . 3 . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . 7
+. . . . . 5 . . . .
+INFO:root:Casualties: [1, 4, 2, 6, 8]
+INFO:root:------------------------------------------------------------------
+INFO:root:
+Time 4: Missile approaching (9, 6) with radius 4
+INFO:root:Soldier 5 moved to (9,8)
+INFO:root:Soldier 7 moved to (9,8)
+INFO:root:. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . 10 9
+. . . . . . . . . .
+. . . . 3 . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . X . . .
+INFO:root:Casualties: [1, 4, 2, 6, 8, 5, 7]
+INFO:root:------------------------------------------------------------------
+INFO:root:
+Time 5: Missile approaching (7, 9) with radius 4
+INFO:root:. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . 10 9
+. . . . . . . . . .
+. . . . 3 . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . X
+. . . . . . . . . .
+. . . . . . . . . .
+INFO:root:Casualties: [1, 4, 2, 6, 8, 5, 7]
+INFO:root:------------------------------------------------------------------
+INFO:root:The battle was lost!
+
